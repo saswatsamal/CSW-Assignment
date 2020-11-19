@@ -4,6 +4,9 @@
 ![Forks](https://flat.badgen.net/github/forks/saswatsamal/CSW-Assignment)  ![Stars](https://flat.badgen.net/github/stars/saswatsamal/CSW-Assignment)
 
 ![Languages](https://img.shields.io/github/languages/count/saswatsamal/CSW-Assignment?color=green&style=for-the-badge)
+![Repo Size](https://img.shields.io/github/languages/code-size/saswatsamal/CSW-Assignment?color=black&logo=html5&logoColor=green&style=for-the-badge)
+ ![Top Language](https://img.shields.io/github/languages/top/saswatsamal/CSW-Assignment?color=gr&logo=html5&style=for-the-badge)
+
 
 
 <p> The Book which is used for the 3rd semester. </p>
