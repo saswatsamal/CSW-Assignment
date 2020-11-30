@@ -1,0 +1,34 @@
+ System.out.println("-----palindromic number----------");
+   //3 palindromic number 
+    System.out.println("Enter a number");
+     int p=sc.nextInt();
+    getPaliNum(p);
+
+  }
+  public static void getPaliNum(int n){
+    if(isPalindrome(n)){
+    System.out.println("palindromic number is "+n);
+    return;
+    }
+    getPaliNum(n+getRev(n));
+  }
+  public static int getRev(int n){
+     int temp=n;
+     int rev=0;
+    while(temp>0){
+      int v=temp%10;
+      rev=rev*10+v;
+      temp=temp/10;
+    }
+    return rev;
+  }
+  public static boolean isPalindrome(int n){
+   
+    int rev=getRev(n);
+    
+    if(rev==n)
+    return true;
+    else
+    return false;
+    
+    //I'll add the Java file later
