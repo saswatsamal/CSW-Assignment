@@ -1,25 +1,16 @@
 // prints a table of Fahrenheit temperatures and the corresponding Celsius
 // temperatures, rounded up-to two digits after decimal point
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class C5Q6 {
     public static void main(String[] args) {
-        C5Q6 t = new C5Q6();
-    t.start();
-    t.data();
-    t.end();
-    }
-    protected void start() {
-    }
-    protected void data() {
-    for (int i=-40; i<=120; i+=10) {
-    float c = (i-32)*(5f/9);
-    print(i, c);
-    }
-    }
-    protected void print(float f, float c) {
-    System.out.println(f + " " + c);
-    }
-    protected void end() {
-    }
-   
+		 System.out.println("Celsius\t\tFarenheit");
+
+		for (double c=0;c<=100;c++){
+        	NumberFormat nf=new DecimalFormat("0.00");
+    		double d=(c*9.0/5.0)+32 ;
+            System.out.println(c+"\t\t"+nf.format(d)+"\t");
+  }
+ }
 }
